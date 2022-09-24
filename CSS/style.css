@@ -11,13 +11,17 @@
 }
 
 .body {
+
     color: var(--primary-text-color);
     background-color: #FFFFFF;
     font-family: Roboto, sans-serif;
     letter-spacing: 0.03em;
+
 }
 
+
 .logo-link {
+
     color: var(--accent-color);
     font-family: Raleway, sans-serif;
     font-style: normal;
@@ -25,7 +29,9 @@
     font-size: 26px;
     line-height: 1.2;
     text-decoration: none;
+
 }
+
 .logo-header {
     color: #000000;
     font-family: Raleway, sans-serif;
@@ -35,11 +41,15 @@
     line-height: 1.2;
     text-decoration: none;
 }
+
 ul {
+
     list-style: none;
+
 }
 
 .site-nav .link {
+
     color: var(--title-text-color);
     font-style: normal;
     font-weight: 500;
@@ -47,8 +57,10 @@ ul {
     line-height: 1.1;
     letter-spacing: 0.02em;
     text-decoration: none;
+
 }
-.site-nav .link.current{
+
+.site-nav .link.current {
 
     color: var(--accent-color);
     font-style: normal;
@@ -68,16 +80,22 @@ ul {
     font-size: 14px;
     line-height: 1.1;
     letter-spacing: 0.02em;
+    text-decoration: none;
 
 }
 
 .auth-nav :hover,
 .auth-nav :focus {
+
     color: #000000;
 
 }
-.hero {
 
+
+.hero {
+    
+    color: #FFFFFF;
+    background-color: #2F303A;
     font-style: normal;
     font-weight: 900;
     font-size: 44px;
@@ -89,6 +107,7 @@ ul {
 }
  
 .feature-list .title {
+
     color: var(--title-text-color);
     font-style: normal;
     font-weight: 700;
@@ -144,14 +163,12 @@ ul {
     letter-spacing: 0.06em;
 }
 
-.auth-nav address {
+.page-header.auth-nav .link {
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
 }
-.auth-nav address.link:hover,
-.auth-nav address.link :focus {
-    color: var(--accent-color);
-}
+
+
 .section-title {
     color: var(--title-text-color);
     font-style: normal;
@@ -162,15 +179,27 @@ ul {
     letter-spacing: 0.03em;
 }
 .button {
+
     color: var(--whight);
     background-color: var(--accent-color);
+
 }
  
 .button.primary {
+
     color: var(--whight);
-    background-color: var(--accent-color)
+    background-color: var(--accent-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
  }
+
   .button.secondery {
+
     color: var(--accent-color);
     background-color: var(--whight);
     font-style: normal;
@@ -178,9 +207,36 @@ ul {
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
+    text-decoration: none;
+
   }
 
   .footer {
+
     background-color:#2F303A;
+
   }
-  
+   
+  .footer .adress {
+
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+
+  }
+
+
+  .footer .link {
+    
+    color: rgba(255, 255, 255, 0.6);    
+
+  }
+
+
+.footer .logo-header {
+    color: #FFFFFF;
+}
