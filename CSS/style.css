@@ -196,9 +196,16 @@ ul {
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
- }
+}
 
-  .button.secondery {
+.button.primary:hover,
+.button.primary:focus {
+
+  color: #000000;
+
+}
+
+.button.secondery {
 
     color: var(--accent-color);
     background-color: var(--whight);
@@ -209,15 +216,31 @@ ul {
     letter-spacing: 0.02em;
     text-decoration: none;
 
-  }
+}
+.button.filter {
+    background-color: #F5F4FA;
+    color: var(--title-text-color);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
 
-  .footer {
+.filter:hover, 
+.filter:focus {
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
+
+.footer {
 
     background-color:#2F303A;
 
-  }
+}
    
-  .footer .adress {
+.footer .adress {
 
     color: #FFFFFF;
     font-style: normal;
@@ -227,14 +250,19 @@ ul {
     letter-spacing: 0.03em;
     text-decoration: none;
 
-  }
+}
 
 
-  .footer .link {
+.footer .link {
     
     color: rgba(255, 255, 255, 0.6);    
 
-  }
+}
+
+.footer .link:hover,
+.footer .link:focus {
+    color: #000000;
+}
 
 
 .footer .logo-header {
