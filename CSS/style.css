@@ -87,7 +87,7 @@ ul {
 .auth-nav :hover,
 .auth-nav :focus {
 
-    color: #000000;
+    color: var(--accent-color);
 
 }
 
@@ -252,6 +252,11 @@ ul {
 
 }
 
+.footer .adress :hover,
+.footer .adress :focus {
+    color: var(--accent-color);
+}
+
 
 .footer .link {
     
@@ -259,9 +264,9 @@ ul {
 
 }
 
-.footer .link:hover,
-.footer .link:focus {
-    color: #000000;
+.footer.link:hover,
+.footer.link:focus {
+    color: var(--accent-color);
 }
 
 
